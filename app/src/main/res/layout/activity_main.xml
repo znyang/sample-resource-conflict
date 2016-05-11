@@ -16,7 +16,9 @@
         android:id="@+id/btn_action"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        android:text="@string/library"
+        android:textColor="@color/clr_base"/>
 
     <include layout="@layout/include_content"/>
 </RelativeLayout>
